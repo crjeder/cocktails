@@ -77,6 +77,15 @@ const CocktailPage = ({ cocktail, allGlasses, classes }) => {
         <br />
         <Typography component="p">{preparation}</Typography>
       </Paper>
+      <Paper className={classes.cocktailDetailPaper}>
+        <Typography component="ul" gutterBottom>
+          <>
+            return <img src='../../images/QR/vesper.png' alt="qrcode" />;
+          </>
+        </Typography>
+        <br />
+        <Typography component="p">{preparation}</Typography>
+      </Paper>
     </>
   );
 };
